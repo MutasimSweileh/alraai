@@ -1,0 +1,2151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+    <title>Al Raai | steel pipe trading & electrical supplies</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+
+    <!-- Stylesheets -->
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link href="css/flaticon.css" rel="stylesheet" />
+    <link href="css/owl.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/color.css" rel="stylesheet" />
+    <link href="css/elpath.css" rel="stylesheet" />
+    <link href="css/jquery-ui.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<!-- page wrapper -->
+
+<body>
+    <div class="boxed_wrapper">
+
+        <!--Search Popup-->
+        <div id="search-popup" class="search-popup">
+            <div class="popup-inner">
+                <div class="upper-box clearfix">
+                    <figure class="logo-box">
+                        <a href=""><img src="images/wlogo.png" alt="" /></a>
+                    </figure>
+                    <div class="close-search"><span class="far fa-times"></span>
+                    </div>
+                </div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="search-form">
+                        <form method="post" action="">
+                            <div class="form-group">
+                                <fieldset>
+                                    <input type="search" class="form-control"
+                                        name="search-input" value=""
+                                        placeholder="Type your keyword and hit"
+                                        required />
+                                    <button type="submit"><i
+                                            class="far fa-search"></i></button>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main header -->
+        <header class="main-header header-style-two">
+            <div class="header-upper">
+                <div class="auto-container">
+                    <div class="upper-inner">
+                        <div class="logo-box">
+                            <figure class="logo">
+                                <a href=""><img src="images/logo.png"
+                                        alt="" /></a>
+                            </figure>
+                        </div>
+                        <ul class="info-list clearfix">
+                            <li>
+                                <div class="icon-box"><i class="icon-48"></i>
+                                </div>
+                                <h5>Mail Us</h5>
+                                <p><a href="mailto:">
+                                        <?= getValue('email') ?>
+                                    </a></p>
+                            </li>
+
+                            <li>
+                                <div class="icon-box"><i
+                                        class="fal fa-map-marker-check"></i>
+                                </div>
+                                <h5>Find Us</h5>
+                                <p><a href="mailto:">Get Our Location</a></p>
+                            </li>
+                        </ul>
+
+                        <div class="social-info-wrapper">
+                            <ul class="social-info">
+                                <li class="social-facebook">
+                                    <a class="social-icon" target="_blank"
+                                        href="<?= getValue('facebook') ?>"
+                                        rel="nofollow"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="social-facebook">
+                                    <a class="social-icon" target="_blank"
+                                        href="#" rel="nofollow"><i
+                                            class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="social-facebook">
+                                    <a class="social-icon" target="_blank"
+                                        href="#" rel="nofollow"><i
+                                            class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="social-facebook">
+                                    <a class="social-icon" target="_blank"
+                                        href="#" rel="nofollow"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="lang-box">
+                            <div class="bo">
+                                <a href="" title=""> <i class="icon-47"></i>
+                                    Arabic</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <div class="menu-area clearfix">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav
+                                class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix"
+                                    id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li class="current"><a
+                                                href="<?= $core->getPageUrl("
+                                                index" . $plang) ?>" title="">
+                                                <?= getTitle("index" . $plang) ?>
+                                            </a>
+                                        </li>
+
+                                        <li><a href="<?= $core->getPageUrl("
+                                                about" . $plang) ?>" title="">
+                                                <?= getTitle("about" . $plang) ?>
+                                            </a></li>
+
+                                        <li class="dropdown">
+                                            <a href="<?= $core->getPageUrl("
+                                                about" . $plang) ?>" title="">
+                                                <?= getTitle("about" . $plang) ?>
+                                            </a>
+                                            <ul>
+                                                <li><a href="">EMT conduit and
+                                                        fittings</a></li>
+                                                <li><a href="">IMC conduit and
+                                                        rigid fittings</a></li>
+                                                <li><a href="">conduit boxes and
+                                                        covers</a></li>
+                                                <li><a href="">weatherproof
+                                                        boxes</a></li>
+                                                <li><a href="">flexible conduit
+                                                        and fittings</a></li>
+                                                <li><a href="">strut channel and
+                                                        support</a></li>
+                                                <li><a href="">aluminum
+                                                        conduit</a></li>
+
+
+                                                <li><a href="">cable tray &
+                                                        accessories</a></li>
+                                                <li><a href="">cable wire mesh &
+                                                        accessorie</a></li>
+                                                <li><a href="">cable ladder &
+                                                        accessories</a></li>
+                                                <li><a href="">switch & socket
+                                                        boxes</a></li>
+                                                <li><a href="">distribution
+                                                        box</a></li>
+                                                <li><a href="">square condiut
+                                                        boxes & cover</a></li>
+                                                <li class="dropdown"><a
+                                                        href="">earth rods</a>
+
+                                                    <ul>
+                                                        <li><a
+                                                                href="">harpoon</a>
+                                                        <li><a
+                                                                href="">bushing</a>
+                                                        <li><a href="">Brush</a>
+
+                                                    </ul>
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="<?= $core->getPageUrl("
+                                                gallery" . $plang) ?>" title="">
+                                                <?= getTitle("gallery" . $plang) ?>
+                                            </a></li>
+                                        <li><a href="<?= $core->getPageUrl("
+                                                news" . $plang) ?>" title="">
+                                                <?= getTitle("news" . $plang) ?>
+                                            </a></li>
+                                        <li><a href="<?= $core->getPageUrl("
+                                                order" . $plang) ?>" title="">
+                                                <?= getTitle("order" . $plang) ?>
+                                            </a></li>
+                                        <li><a href="<?= $core->getPageUrl("
+                                                clients" . $plang) ?>" title="">
+                                                <?= getTitle("clients" . $plang) ?>
+                                            </a></li>
+                                        <li><a href="<?= $core->getPageUrl("
+                                                contact " . $plang) ?>"
+                                                title="">
+                                                <?= getTitle("contact " . $plang) ?>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+
+                            <div class="search-box-outer search-toggler">
+                                <i class="icon-5"></i>
+                            </div>
+                        </div>
+                        <div class="nav-right">
+                            <div class="btn-box">
+                                <a href="" class="theme-btn btn-one">
+                                    <div class="iton">
+                                        <div class="icon-box"><i
+                                                class="icon-48"></i></div>
+                                        <h5>Need Help Now?</h5>
+                                        <p>01222300094</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container">
+                    <div class="outer-box">
+                        <div class="logo-box">
+                            <figure class="logo">
+                                <a href=""><img src="images/logo.png"
+                                        alt="" /></a>
+                            </figure>
+                        </div>
+
+                        <div class="menu-area clearfix">
+                            <nav class="main-menu clearfix">
+                                <!--Keep This Empty / Menu will come through Javascript-->
+                            </nav>
+                        </div>
+                        <div class="nav-right">
+                            <div class="search-box-outer search-toggler">
+                                <i class="icon-5"></i>
+                            </div>
+                            <div class="btn-box">
+                                <a href="" class="theme-btn btn-one">
+                                    <div class="iton">
+                                        <div class="icon-box"><i
+                                                class="icon-48"></i></div>
+                                        <h5>Need Help Now?</h5>
+                                        <p>01222300094</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+
+            <nav class="menu-box">
+                <div class="nav-logo">
+                    <a href=""><img src="images/wlogo.png" alt=""
+                            title="" /></a>
+                </div>
+                <div class="menu-outer">
+                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+                <div class="contact-info">
+
+                    <div class="lang-box">
+                        <div class="bo">
+                            <a href="" title=""> <i class="icon-47"></i>
+                                Arabic</a>
+                        </div>
+                    </div>
+
+
+                    <div class="btn-box">
+                        <a href="" class="theme-btn btn-one">
+                            <div class="iton">
+                                <div class="icon-box"><i class="icon-48"></i>
+                                </div>
+                                <h5>Need Help Now?</h5>
+                                <p>01222300094</p>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li>
+                            <a href=""><span class="fab fa-twitter"></span></a>
+                        </li>
+                        <li>
+                            <a href="<?= getValue('facebook') ?>"><span
+                                    class="fab fa-facebook-f"></span></a>
+                        </li>
+                        <li>
+                            <a href=""><span
+                                    class="fab fa-instagram"></span></a>
+                        </li>
+                        <li>
+                            <a href=""><span class="fab fa-youtube"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+
+        <!--Main Slider-->
+        <section class="main-slider style-two">
+            <div class="banner-carousel owl-carousel">
+
+
+
+                <div class="slide">
+                    <img src="images/slide00.jpg"
+                        alt="Al Raai steel pipe trading & electrical supplies" />
+                    <div class="decrepation-sl">
+                        <div class="container">
+                            <div class="content alternate">
+                                <h1 class="">Al Raai steel pipe trading &
+                                    electrical supplies</h1>
+                                <p class="title">
+                                    Alraai distributors don’t just products,
+                                    they help contractors solve problems. And
+                                    we’re proud to be part of the process
+                                </p>
+
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-one">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="slide">
+                    <img src="images/b4.jpg"
+                        alt="Al Raai steel pipe trading & electrical supplies" />
+                    <div class="decrepation-sl">
+                        <div class="container">
+                            <div class="content alternate">
+                                <h1 class="">Al Raai steel pipe trading &
+                                    electrical supplies</h1>
+                                <p class="title">
+                                    Alraai distributors don’t just products,
+                                    they help contractors solve problems. And
+                                    we’re proud to be part of the process
+                                </p>
+
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-one">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="slide">
+                    <img src="images/slide01.jpg"
+                        alt="Al Raai steel pipe trading & electrical supplies" />
+                    <div class="decrepation-sl">
+                        <div class="container">
+                            <div class="content alternate">
+                                <h1 class="">Al Raai steel pipe trading &
+                                    electrical supplies</h1>
+                                <p class="title">
+                                    Alraai distributors don’t just products,
+                                    they help contractors solve problems. And
+                                    we’re proud to be part of the process
+                                </p>
+
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-one">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="images/slide02.jpg"
+                        alt="Al Raai steel pipe trading & electrical supplies" />
+                    <div class="decrepation-sl">
+                        <div class="container">
+                            <div class="content alternate">
+                                <h1 class="">Al Raai steel pipe trading &
+                                    electrical supplies</h1>
+                                <p class="title">
+                                    Alraai distributors don’t just products,
+                                    they help contractors solve problems. And
+                                    we’re proud to be part of the process
+                                </p>
+
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-one">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="images/slide03.jpg"
+                        alt="Al Raai steel pipe trading & electrical supplies" />
+                    <div class="decrepation-sl">
+                        <div class="container">
+                            <div class="content alternate">
+                                <h1 class="">Al Raai steel pipe trading &
+                                    electrical supplies</h1>
+                                <p class="title">
+                                    Alraai distributors don’t just products,
+                                    they help contractors solve problems. And
+                                    we’re proud to be part of the process
+                                </p>
+
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-one">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide">
+                    <img src="images/slide04.jpg"
+                        alt="Al Raai steel pipe trading & electrical supplies" />
+                    <div class="decrepation-sl">
+                        <div class="container">
+                            <div class="content alternate">
+                                <h1 class="">Al Raai steel pipe trading &
+                                    electrical supplies</h1>
+                                <p class="title">
+                                    Alraai distributors don’t just products,
+                                    they help contractors solve problems. And
+                                    we’re proud to be part of the process
+                                </p>
+
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-one">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="slide">
+                    <img src="images/slide05.jpg"
+                        alt="Al Raai steel pipe trading & electrical supplies" />
+                    <div class="decrepation-sl">
+                        <div class="container">
+                            <div class="content alternate">
+                                <h1 class="">Al Raai steel pipe trading &
+                                    electrical supplies</h1>
+                                <p class="title">
+                                    Alraai distributors don’t just products,
+                                    they help contractors solve problems. And
+                                    we’re proud to be part of the process
+                                </p>
+
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-one">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide">
+                    <img src="images/slide06.jpg"
+                        alt="Al Raai steel pipe trading & electrical supplies" />
+                    <div class="decrepation-sl">
+                        <div class="container">
+                            <div class="content alternate">
+                                <h1 class="">Al Raai steel pipe trading &
+                                    electrical supplies</h1>
+                                <p class="title">
+                                    Alraai distributors don’t just products,
+                                    they help contractors solve problems. And
+                                    we’re proud to be part of the process
+                                </p>
+
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-one">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="images/cable_supporting1.jpg"
+                        alt="Al Raai steel pipe trading & electrical supplies" />
+                    <div class="decrepation-sl">
+                        <div class="container">
+                            <div class="content alternate">
+                                <h1 class="">Al Raai steel pipe trading &
+                                    electrical supplies</h1>
+                                <p class="title">
+                                    Alraai distributors don’t just products,
+                                    they help contractors solve problems. And
+                                    we’re proud to be part of the process
+                                </p>
+
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-one">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+        <section class="about-style2-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-style2_image_box wow slideInLeft"
+                            data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner">
+                                <img src="images/about.jpg" alt="">
+                            </div>
+                            <div class="experience-box">
+
+
+
+                                <div class="our-experience-years">
+                                    <div class="year-outline">
+                                        <h2>22</h2>
+                                    </div>
+                                    <p>Years <span>Experience</span></p>
+                                </div>
+
+
+                                <div class="right">
+                                    <span class="icon-icon-6"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6">
+                        <div class="about-style2_text_box">
+                            <div class="sec-title style2">
+                                <div class="sub-title clr2">
+                                    <span class="border-box"></span>
+                                    <h5 class="clr2">About Us</h5>
+                                </div>
+                                <h2>Al Raai steel pipe trading & electrical
+                                    supplies</h2>
+                            </div>
+                            <div class="inner-content">
+                                <div class="text">
+                                    <p>
+
+                                        Alraai distributors don’t just products,
+                                        they help contractors solve problems.
+                                        And we’re proud to be part of the
+                                        process. That’s why we continue to
+                                        invest in technologies for better
+                                        logistics management, better ordering
+                                        insight and better business for you. As
+                                        a division of Alraai Industries.</p>
+
+
+                                    <div class="btn-box">
+                                        <a href=""
+                                            class="theme-btn btn-one">Read
+                                            More</a>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                                <ul>
+                                    <li>
+                                        <div class="icon">
+                                            <div class="inner">
+                                                <span
+                                                    class="icon-41 clr2"></span>
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            <h3>Our products are certified <br>
+                                                and guaranteed</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <div class="inner">
+                                                <span
+                                                    class="icon-13 clr2"></span>
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            <h3>The best experts and<br>
+                                                advanced industry </h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="funfact-style-two centred">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-3 col-md-6 col-6 counter-block">
+                            <div class="counter-block-two">
+                                <div class="inner-box">
+                                    <div class="count-outer count-box">
+                                        <span class="count-text"
+                                            data-speed="1500"
+                                            data-stop="22">0</span>
+                                    </div>
+                                    <p>Years of Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 counter-block">
+                            <div class="counter-block-two">
+                                <div class="inner-box">
+                                    <div class="count-outer count-box">
+                                        <span class="count-text"
+                                            data-speed="1500"
+                                            data-stop="39">0</span>
+                                    </div>
+                                    <p>Satisfied Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 counter-block">
+                            <div class="counter-block-two">
+                                <div class="inner-box">
+                                    <div class="count-outer count-box">
+                                        <span class="count-text"
+                                            data-speed="1500"
+                                            data-stop="550">0</span>
+                                    </div>
+                                    <p>Our products</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 counter-block">
+                            <div class="counter-block-two">
+                                <div class="inner-box">
+                                    <div class="count-outer count-box">
+                                        <span class="count-text"
+                                            data-speed="1500"
+                                            data-stop="6">0</span>
+                                    </div>
+                                    <p>Certificats</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <!--Projects Section-->
+        <section class="projects-section">
+            <div class="auto-container">
+                <div class="small-title-box">
+                    <h3>Shop By Category</h3>
+                    <div class="bar"></div>
+                </div>
+
+                <div class="row">
+                    <!--Project Block-->
+
+
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/x1.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">UPVC Pipes</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/x2.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">Polyethylene hoses</a>
+                                        </h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/x3.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">UPVC flexible</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/x4.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">UPVC accessories</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/e1.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">EMT conduit and
+                                                fittings</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/e2.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">IMC conduit and rigid
+                                                fittings</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/e3.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">conduit boxes and
+                                                covers</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/e4.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">weatherproof boxes</a>
+                                        </h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/e5.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">flexible conduit and
+                                                fittings</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/e6.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">strut channel and
+                                                support</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/e7.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">aluminum conduit</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/d1.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">cable tray &amp;
+                                                accessories</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/d2.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">cable wire mesh &amp;
+                                                accessorie</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Project Block-->
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/d3.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">cable ladder &amp;
+                                                accessories</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Project Block-->
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/d4.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">switch &amp; socket
+                                                boxes</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/d5.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">distribution box</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/d6.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">square condiut boxes
+                                                &amp; cover</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-block col-md-3 col-sm-6 col-6">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="images/copper-earth-rod.jpg" alt="" />
+                                <div class="overlay-box">
+                                    <div class="content">
+                                        <h3><a href="">earth rods</a></h3>
+                                        <div class="text">Read More <i
+                                                class="fal fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+        <!--End Projects Section-->
+
+        <!-- shop-section -->
+        <section class="shop-section home-6 style-six p_relative">
+            <div class="auto-container">
+                <div class="tabs-box">
+                    <div class="small-title-box">
+                        <h3>Special Porducts</h3>
+                        <div class="bar"></div>
+                    </div>
+                    <div
+                        class="prod-carousel owl-carousel owl-theme owl-dots-none cutsom-nav">
+
+
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="new">New</span>
+                                        <figure class="image"><img
+                                                src="images/x5.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">earth rods harpoon</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="new">New</span>
+                                        <figure class="image"><img
+                                                src="images/x6.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">earth rods bushing</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="new">New</span>
+                                        <figure class="image"><img
+                                                src="images/x7.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">earth rods Brush</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="new">New</span>
+                                        <figure class="image"><img
+                                                src="images/x8.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">earth rods</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="new">New</span>
+                                        <figure class="image"><img
+                                                src="images/s21.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">BS 31 Steel Conduit
+                                                217</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="hot">Sale</span>
+                                        <figure class="image"><img
+                                                src="images/s22.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">Galvanized-Steel-Flexible-Conduit.221.1</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s23.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">Green-Field-Flexible-Conduit.222.1</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s24.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">PVC-Coated-Steel-Flexible-Conduit1.223.1</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s26.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">emt_hangers_withbolts</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="new">New</span>
+                                        <figure class="image"><img
+                                                src="images/s27.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">steel-conduit-connector-emt-one-hole-strap</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s25.jpeg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">cable wire mesh</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="hot">Sale</span>
+                                        <figure class="image"><img
+                                                src="images/s28.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">Raco1804</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s29.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">EMT-to-Pull-Elbow-EMT-To-RMC-Combimation.207.1</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s30.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">conduit-hangers</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="hot">Sale</span>
+                                        <figure class="image"><img
+                                                src="images/s31.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">Malleable-T-conduit-body-without-cover-and-gasket1.170.1</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+
+                                        <figure class="image"><img
+                                                src="images/s32.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">Aluminum-LR-conduit-body.166.1</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+
+                                        <figure class="image"><img
+                                                src="images/s33.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">Watertight-Grounding-Hub.224.1</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+
+                                        <figure class="image"><img
+                                                src="images/s34.jpeg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">three piece type</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+
+                                        <figure class="image"><img
+                                                src="images/s35.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">channel spring nut</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="hot">Sale</span>
+                                        <figure class="image"><img
+                                                src="images/s37.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">crouse hinds rigid imc
+                                                stainless conduit</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+
+                                        <figure class="image"><img
+                                                src="images/s36.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">Strut Channel Conduit
+                                                Clamp at Menards</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+
+                                        <figure class="image"><img
+                                                src="images/s38.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">crouse-hinds-rigid-imc-locknuts-nipples-reducers</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+
+                                        <figure class="image"><img
+                                                src="images/s39.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a
+                                                href="">Conduit-Pipe-And-Fittings-CONDUIT-BUSHING</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s18.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">cable tray</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="hot">Sale</span>
+                                        <figure class="image"><img
+                                                src="images/s14.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">square condiut boxes</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s3.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">radius elbow</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s17.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">socket boxes</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="hot">Sale</span>
+                                        <figure class="image"><img
+                                                src="images/s5.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">cable wire mesh</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="new">new</span>
+                                        <figure class="image"><img
+                                                src="images/s6.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">cable ladder</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s7.png" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">cable tray</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="hot">Sale</span>
+                                        <figure class="image"><img
+                                                src="images/s8.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">distribution box</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s9.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">cable ladder</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <figure class="image"><img
+                                                src="images/s19.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">cable tray</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="hot">Sale</span>
+                                        <figure class="image"><img
+                                                src="images/s20.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">cable wire mesh</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-column">
+                            <div class="shop-block-one">
+                                <div class="inner-box">
+                                    <div class="image-box">
+                                        <span class="new">new</span>
+                                        <figure class="image"><img
+                                                src="images/s12.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                    <div class="lower-content">
+                                        <h6><a href="">distribution box</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shop-section end -->
+
+        <!-- feature-section -->
+        <section class="feature-section">
+            <div class="auto-container p_relative">
+                <div class="small-title-box">
+                    <h3>Our Prands</h3>
+                    <div class="bar"></div>
+                </div>
+
+                <div class="owl-carousel prands-slider custom-nav">
+
+
+                    <div class="feature-block">
+                        <div class="feature-block-one wow fadeInLeft"
+                            data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block clearfix">
+                                <figure class="image-box p_relative d_block">
+                                    <img src="images/new.gif" alt="" />
+                                </figure>
+                                <div class="content-box p_relative d_block">
+                                    <h3><a href="">House of engineering</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-block">
+                        <div class="feature-block-one wow fadeInLeft"
+                            data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block clearfix">
+                                <figure class="image-box p_relative d_block">
+                                    <img src="images/Elsewedy_Electric_Logo.svg.png"
+                                        alt="" />
+                                </figure>
+                                <div class="content-box p_relative d_block">
+                                    <h3><a href="">elsewedy electric</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="feature-block">
+                        <div class="feature-block-one wow fadeInLeft"
+                            data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block clearfix">
+                                <figure class="image-box p_relative d_block">
+                                    <img src="images/c1.jpg" alt="" />
+                                </figure>
+                                <div class="content-box p_relative d_block">
+                                    <h3><a href="">ALEX</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-block">
+                        <div class="feature-block-one wow fadeInLeft"
+                            data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block clearfix">
+                                <figure class="image-box p_relative d_block">
+                                    <img src="images/c2.jpg" alt="" />
+                                </figure>
+                                <div class="content-box p_relative d_block">
+                                    <h3><a href="">Smartpipe</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-block">
+                        <div class="feature-block-one wow fadeInLeft"
+                            data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block clearfix">
+                                <figure class="image-box p_relative d_block">
+                                    <img src="images/c3.svg" alt="" />
+                                </figure>
+                                <div class="content-box p_relative d_block">
+                                    <h3><a href="">Wheatland Tube</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- feature-section end -->
+
+
+        <!-- news-section -->
+        <section class="news-section p_relative">
+            <div class="auto-container">
+                <div class="small-title-box">
+                    <h3>Latest News</h3>
+                    <div class="bar"></div>
+                </div>
+
+                <div class="owl-carousel three-item-carousel custom-nav">
+                    <div class="news-block">
+                        <div class="news-block-one wow fadeInUp animated"
+                            data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block">
+                                <figure class="image-box">
+                                    <a href=""><img src="images/news11.jpg"
+                                            alt="" /></a>
+                                </figure>
+                                <div class="lower-content p_relative d_block">
+                                    <h3><a href="">The Importance Of The Air
+                                            Quality.</a></h3>
+                                    <ul class="post-info clearfix">
+                                        <li><i class="icon-42"></i>10 Oct, 2021
+                                        </li>
+                                    </ul>
+                                    <p>Alraai distributors don’t just products,
+                                        they help contractors solve problems.
+                                        And we’re proud to be part of the
+                                        process.</p>
+                                    <div class="link">
+                                        <a href="">Read more<i
+                                                class="icon-7"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-block">
+                        <div class="news-block-one wow fadeInUp animated"
+                            data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block">
+                                <figure class="image-box">
+                                    <a href=""><img src="images/news2.jpg"
+                                            alt="" /></a>
+                                </figure>
+                                <div class="lower-content p_relative d_block">
+                                    <h3><a href="">How to Repair Electricity to
+                                            Car Engine.</a></h3>
+                                    <ul class="post-info clearfix">
+                                        <li><i class="icon-42"></i>09 Oct, 2021
+                                        </li>
+                                    </ul>
+                                    <p>Alraai distributors don’t just products,
+                                        they help contractors solve problems.
+                                        And we’re proud to be part of the
+                                        process.</p>
+                                    <div class="link">
+                                        <a href="">Read more<i
+                                                class="icon-7"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-block">
+                        <div class="news-block-one wow fadeInUp animated"
+                            data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block">
+                                <figure class="image-box">
+                                    <a href=""><img src="images/news3.jpg"
+                                            alt="" /></a>
+                                </figure>
+                                <div class="lower-content p_relative d_block">
+                                    <h3><a href="">Electrical Wiring For Home &
+                                            Office.</a></h3>
+                                    <ul class="post-info clearfix">
+                                        <li><i class="icon-42"></i>08 Oct, 2021
+                                        </li>
+                                    </ul>
+                                    <p>Alraai distributors don’t just products,
+                                        they help contractors solve problems.
+                                        And we’re proud to be part of the
+                                        process.</p>
+                                    <div class="link">
+                                        <a href="">Read more<i
+                                                class="icon-7"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- news-section end -->
+
+
+        <!--
+            <section class="clients-section p_relative">
+                <div class="auto-container">
+                    <div class="small-title-box">
+                        <h3>Our clients</h3>
+                        <div class="bar"></div>
+                    </div>
+
+                    <div class="six-item-carousel owl-carousel custom-nav owl-dots-none">
+                        <figure class="clients-logo p_relative d_block">
+                            <a href=""><img src="images/c1.png" alt="" /></a>
+                        </figure>
+                        <figure class="clients-logo p_relative d_block">
+                            <a href=""><img src="images/c2.png" alt="" /></a>
+                        </figure>
+                        <figure class="clients-logo p_relative d_block">
+                            <a href=""><img src="images/c3.png" alt="" /></a>
+                        </figure>
+                        <figure class="clients-logo p_relative d_block">
+                            <a href=""><img src="images/c4.png" alt="" /></a>
+                        </figure>
+                        <figure class="clients-logo p_relative d_block">
+                            <a href=""><img src="images/c5.png" alt="" /></a>
+                        </figure>
+                        <figure class="clients-logo p_relative d_block">
+                            <a href=""><img src="images/c6.png" alt="" /></a>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+-->
+
+        <!--Main Footer-->
+        <footer class="main-footer">
+            <div class="auto-container">
+                <!--Widgets Section-->
+                <div class="widgets-section">
+                    <div class="row clearfix">
+
+                        <div class="column col-md-4 col-xs-12">
+                            <div class="footer-widget logo-widget">
+                                <div class="logo">
+                                    <a href=""><img src="images/logo.png"
+                                            alt="" /></a>
+                                </div>
+
+
+                                <div class="widget-content">
+                                    <ul class="social-icon-one">
+                                        <li>
+                                            <a
+                                                href="<?= getValue('facebook') ?>"><span
+                                                    class="fab fa-facebook-f"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span
+                                                    class="fab fa-twitter"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span
+                                                    class="fab fa-instagram"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span
+                                                    class="fab fa-linkedin"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="footer-bottom toptop">
+                                <div class="footer-title">
+                                    <h2>Newletter</h2>
+                                </div>
+                                <!--Title Column-->
+                                <div class="title-column">
+                                    <div class="text">Subscribe To Get latest
+                                        updates.</div>
+                                </div>
+                                <!--Subscribe Column-->
+                                <div class="subscribe-column">
+                                    <div class="subscribe-form">
+                                        <form method="post" action="">
+                                            <div class="form-group">
+                                                <input type="email" name="email"
+                                                    value=""
+                                                    placeholder="Your E-mail Address..."
+                                                    required="" />
+                                                <button type="submit"
+                                                    class="theme-btn">Subscribe
+                                                    <span
+                                                        class="fal fa-arrow-right"></span></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <!--Column-->
+                        <div class="column col-md-4 col-xs-12">
+                            <div class="footer-widget links-widget">
+                                <div class="footer-title">
+                                    <h2>Useful Links</h2>
+                                </div>
+
+                                <ul class="links">
+                                    <li><a href="">- Home</a></li>
+                                    <li><a href="<?= $core->getPageUrl(" about"
+                                            . $plang) ?>" title="">-
+                                            <?= getTitle("about" . $plang) ?>
+                                        </a></li>
+                                    <li><a href="<?= $core->getPageUrl("
+                                            products" . $plang) ?>" title="">-
+                                            <?= getTitle("products" . $plang) ?>
+                                        </a></li>
+                                    <li><a href="<?= $core->getPageUrl(" order"
+                                            . $plang) ?>" title="">-
+                                            <?= getTitle("order" . $plang) ?>
+                                        </a></li>
+                                    <li><a href="<?= $core->getPageUrl("
+                                            gallery" . $plang) ?>" title="">-
+                                            <?= getTitle("gallery" . $plang) ?>
+                                        </a></li>
+                                    <li><a href="<?= $core->getPageUrl(" news" .
+                                            $plang) ?>" title="">-
+                                            <?= getTitle("news" . $plang) ?>
+                                        </a></li>
+                                    <li><a href="<?= $core->getPageUrl("
+                                            clients" . $plang) ?>" title="">-
+                                            <?= getTitle("clients" . $plang) ?>
+                                        </a></li>
+                                    <li><a href="<?= $core->getPageUrl("
+                                            </a></a>
+                                        contact " . $plang) ?>" title="">-
+                                        <?= getTitle("contact " . $plang) ?>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="column col-md-4 col-sm-6 col-xs-12">
+                            <div class="footer-widget material-widget">
+                                <div class="footer-title">
+                                    <h2>Contacts</h2>
+                                </div>
+
+                                <div class="widget-content">
+                                    <ul class="list-style-two">
+                                        <li>
+                                            <span
+                                                class="icon fal fa-map-marker-check"></span>
+                                            <p>Address</p>
+                                            13 Al-Farouq Tower 2, Bustan
+                                            Al-Dekka St. off Emad Al-Din St.
+                                            Downtown - Cairo
+                                        </li>
+
+                                        <li>
+                                            <span class="icon icon-48"></span>
+                                            <p>Phone</p>
+                                            0225910005 - 01222300094
+                                        </li>
+
+                                        <li>
+                                            <span
+                                                class="icon fal fa-envelope-open-text"></span>
+                                            <p>Mail</p>
+                                            <?= getValue('email') ?>
+                                        </li>
+
+                                        <li>
+                                            <span class="icon icon-46"></span>
+                                            <p>Hours</p>
+                                            Monday-Satur: 8AM-5PM
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="copyright">Copyright © 2022 Erasoft All rights
+                        reserved.</div>
+                </div>
+            </div>
+        </footer>
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <div>
+                <div class="scroll-top-inner">
+                    <div class="scroll-bar-text"><i
+                            class="fal fa-long-arrow-up"></i></div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll to top end -->
+    </div>
+
+
+
+
+    <div class="all-ioc">
+        <div class="show-icons">
+            <div class="ico-img"></div>
+            <div class="sonar-wave"></div>
+            <div class="sonar-wave2"></div>
+        </div>
+
+
+
+        <div class="whats-icon" data-target="html">
+            <a href="https://api.whatsapp.com/send?phone=+0201222300094"><span
+                    class="icon fab fa-whatsapp"></span>
+            </a>
+        </div>
+
+
+
+        <div class="messenger-icon" data-target="html">
+            <a href="https://m.me/1999335120342010"><span
+                    class="icon fab fa-facebook-messenger"></span>
+            </a>
+        </div>
+
+
+        <div class="phone-icon" data-target="html">
+            <a href="tel:0201222300094"><span class="icon fal fa-phone"></span>
+            </a>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!-- jequery plugins -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/parallax-scroll.js"></script>
+
+    <!-- main-js -->
+    <script src="js/script.js"></script>
+</body>
+<!-- End of .page_wrapper -->
+
+</html>
